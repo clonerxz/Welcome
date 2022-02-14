@@ -1,4 +1,4 @@
-from pickle import FALSE
+
 from rich.console import Console
 from rich.measure import Measurement
 from rich.table import Table
