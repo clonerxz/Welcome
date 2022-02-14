@@ -1,4 +1,3 @@
-
 from rich.console import Console
 from rich.measure import Measurement
 from rich.table import Table
@@ -13,8 +12,8 @@ print("Hi ",x)
 print("[How old are you?]")
 y = input("=>")
 time.sleep(2)
-table = Table(title="Your information")
 
+table = Table(title="Your information")
 table.add_column("Name", style="cyan", no_wrap=True)
 table.add_column("Age", style="magenta")
 table.add_row( x, y)
